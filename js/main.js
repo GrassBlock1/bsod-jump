@@ -31,14 +31,14 @@ progress();
 randomError();
 
 // redirect
-//setTimeout(function() {
-//    const oldUrl = document.location.href;
-//    const newUrl = new URL(oldUrl);
-//    if (document.location.host.split(".")[0] === 'lab' || document.location.host.split(".")[0] === 'blog')
-//    {
-//        newUrl.hostname = 'lab.gb0.dev';
-//    } else {
-//        newUrl.hostname = 'gb0.dev';
-//    }
-//    window.location.href = newUrl.href;
-//}, 5000); // 5 秒后重定向
+setTimeout(function() {
+    const oldUrl = document.location.href;
+    const newUrl = new URL(oldUrl);
+    if (document.location.host.split(".")[0] === 'lab' || document.location.host.split(".")[0] === 'blog')
+    {
+        newUrl.hostname = 'lab.gb0.dev';
+    } else {
+        newUrl.hostname = 'gb0.dev';
+    }
+    window.location.href = newUrl.href;
+}, 5000); // 5 秒后重定向
