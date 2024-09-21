@@ -1,0 +1,65 @@
+body {
+    background-color: #0175DB;
+    color: white;
+    font-family: Consolas, "Courier New", monospace;
+}
+@media (width<= 768px) {
+    div.container {
+        max-width: 100%;
+        padding: 0 5%;
+    }
+    object {
+        width: 128px;
+    }
+    p.error-info {
+        margin-top: 1.5rem;
+    }
+}
+.container {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    height: 100vh;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 10%;
+}
+h1 {
+    font-size: 8rem;
+    margin: 1rem 0;
+}
+p {
+    font-size: 1rem;
+    line-height: 1;
+}
+.message-1 {
+    font-size: 2.5rem;
+    line-break: normal;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.message-2 {
+    font-size: 2.5rem;
+    line-break: normal;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+}
+#progress {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+}
+.error-info {
+    margin-top: 3.5rem;
+    font-size: 1rem;
+}
+.error-code {
+    font-size: 1rem;
+}
+.qr-support {
+    display: flex;
+    width: 80%;
+}
+.support {
+    margin-left: 3%;
+}
